@@ -44,13 +44,13 @@ const Navbar = () => {
       <div className="Hippo1_navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#6f77df"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#6f77df"
             size={27}
             onClick={() => setToggleMenu(true)}
           />

@@ -7,10 +7,10 @@ const Home = () => {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        <Header />
+       
        
 </div>
-
+ <Header />
       <Cart />
       <Filter />
       <Pagination />
