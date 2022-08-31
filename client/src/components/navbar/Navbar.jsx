@@ -9,7 +9,7 @@ const Menu = () => (
       <a href="#Home">Home</a>
     </p>
     <p>
-      <a href="#l">Product</a>
+      <a href="#l">Hotel Booking</a>
     </p>
     <p>
       <a href="#2">Who we are</a>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         <div className="Hippo1_navbar-links_container">
-          <Menu /> 
+          <Menu />
         </div>
       </div>
       <div className="Hippo1_navbar-sign">
@@ -57,7 +57,7 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="Hippo1_navbar-menu_container scale-up-center">
-            <div className="Hippo1_navbar-menu_container-links"> 
+            <div className="Hippo1_navbar-menu_container-links">
               <Menu />
               <div className="Hippo1_navbar-menu_container-links-sign">
                 <p>Sign in</p>

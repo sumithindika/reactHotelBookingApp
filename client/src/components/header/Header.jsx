@@ -4,10 +4,10 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div>
-      Header
+    <div className="headerSearch">
+    <div className="headerSearchItem"></div>
     </div>
   )
 }
 
-export default Header
+export default Header;
